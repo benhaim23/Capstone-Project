@@ -1,4 +1,4 @@
-# Capstone-Project - Bitcoin Price Prediction and Sentiment Predictor Using Twitter Data
+# Bitcoin Price Prediction and Sentiment Predictor Using Twitter Data
 
 # Executive summary
 
