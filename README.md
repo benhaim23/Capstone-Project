@@ -22,20 +22,20 @@ Demo videos:
 Tableau Dashboard: _____________________
 
 # Project Organization
-├── README.md          <- The top-level README for developers using this project.
-|
-├── SummaryReport_Bitcoin_Prediction_Analysis.pdf    <- Executive summary
-├── Presentation_Bitcoin_Preidiction_Analysis.pdf    <- Final presentation of the project
-|
-├── notebooks
-|   ├── Mark_Benhaim_Bitcoin_Prediction_Analysis_1_data_acquisition_cleaning.ipynb   <- Project notebook 1 - Data cleaning
-|   ├── Mark_Benhaim_Bitcoin_Prediction_Analysis_2_EDA_preprocessing.ipynb           <- Project notebook 2 - EDA
-|   ├── Mark_Benhaim_Bitcoin_Prediction_Analysis_3_modelling.ipynb                   <- Project notebook 3 - modelling
-|   ├── Mark_Benhaim_Bitcoin_Prediction_Analysis_2_discussion.ipynb         <- Project notebook 4 - discussion
-|
-├── data (google drive link: __________________)
-│   ├── CSVs              
-│
+README.md          <- The top-level README for developers using this project.
+
+SummaryReport_Bitcoin_Prediction_Analysis.pdf    <- Executive summary
+Presentation_Bitcoin_Preidiction_Analysis.pdf    <- Final presentation of the project
+
+notebooks:
+Mark_Benhaim_Bitcoin_Prediction_Analysis_1_data_acquisition_cleaning.ipynb   <- Project notebook 1 - Data cleaning
+Mark_Benhaim_Bitcoin_Prediction_Analysis_2_EDA_preprocessing.ipynb           <- Project notebook 2 - EDA
+Mark_Benhaim_Bitcoin_Prediction_Analysis_3_modelling.ipynb                   <- Project notebook 3 - modelling
+Mark_Benhaim_Bitcoin_Prediction_Analysis_2_discussion.ipynb         <- Project notebook 4 - discussion
+
+data (google drive link: __________________)
+CSVs              
+
 # Introduction
 Bitcoin Price Prediction and Sentiment Predictor is a tool that combines Bitcoin market data, technical indicators, and sentiment analysis of over a million tweets to predict Bitcoin price changes. It harnesses the power of public sentiment expressed on Twitter, converting it into valuable insights that contribute to a comprehensive understanding of Bitcoin's price dynamics.
 
