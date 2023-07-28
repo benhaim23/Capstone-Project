@@ -1,4 +1,4 @@
-# Bitcoin Price Forecasting and Sentiment Predictor Using Twitter Data
+# Bitcoin Price Forecasting and Sentiment Predictor Using Twitter Data, Google Trends and Technical Indicators
 
 # Introduction
 This project aims to forecast the price of Bitcoin and analyze sentiment related to Bitcoin on Twitter using machine learning techniques. The project utilizes historical Bitcoin price data, Google search trends for Bitcoin, and a large collection of tweets about Bitcoin to build predictive models.
@@ -7,6 +7,7 @@ This project aims to forecast the price of Bitcoin and analyze sentiment related
 README.md          <- The top-level README for developers using this project.
 
 SummaryReport_Bitcoin_Prediction_Analysis.pdf    <- Executive summary
+Mark_Benhaim_Sprint1_presentation.pdf            <- Interim presentation of the project
 Presentation_Bitcoin_Preidiction_Analysis.pdf    <- Final presentation of the project
 
 # Notebooks:
