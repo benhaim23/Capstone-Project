@@ -41,7 +41,7 @@ The project involved extensive data cleaning to prepare the datasets for analysi
 Various data visualizations were created to gain insights into the datasets and better understand the relationships between different variables. The visualizations include line plots, box plots, pair plots, wordcloud and heatmaps.
 
 # Feature Engineering
-A new DataFrame was created extracted from the tweets data, focusing on the five most repeated keywords and their counts. Another variable was added to store the total count of all keywords for each date.
+A new DataFrame was created extracted from the tweets data, focusing on the five most repeated keywords and their counts: bitcoin, btc, crypto, cryptocurrency and project. Another variable was added to store the total count of all keywords for each date by day.
 
 # Combining Datasets
 The datasets were combined based on the date to create a new DataFrame that includes Bitcoin price data, Google search trends, and tweet counts for each date.
