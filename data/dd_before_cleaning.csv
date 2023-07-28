@@ -1,0 +1,12 @@
+Colmn Name,Data Type,Description
+Time,String,Time in days
+Open,Float,open price of bitcoin
+Percent change in price (close/open),Float,the percent change of the open price to the closing price of bitcoin each day
+Close,Float,Close price of bitcoin
+BTC Dominance Open,Float,The opening percent marketshare of Bitcoin
+Percent change in dominance (close/open),Float,The percent change in Bitcoin marketshare each day
+BTC Dominance Close,Float,The closing percent marketshare of Bitcoin
+Volume,Float,The total bitcoin volume per day on the exchange Binance
+RSI (relative strength index),Float,"The Relative Strength Index (RSI) is a well versed momentum based oscillator which is used to measure the speed (velocity) as well as the change (magnitude) of directional price movements. Essentially RSI, when graphed, provides a visual mean to monitor both the current, as well as historical, strength and weakness of a particular market. The strength or weakness is based on closing prices over the duration of a specified trading period creating a reliable metric of price and momentum changes. Given the popularity of cash settled instruments (stock indexes) and leveraged financial products (the entire field of derivatives); RSI has proven to be a viable indicator of price movements."
+HV (historical volatility),Float,Historical volatility is a statistical measure used to analyze the general dispersion of security or market index returns for a specified period of time. It is commonly calculated by identifying the average deviation from a financial instrument’s average price within the set time period. In this case it is the 10 day average for bitcoin
+Cleantext,String,Text of each individual tweet
