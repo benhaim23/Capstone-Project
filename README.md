@@ -38,7 +38,7 @@ The project involved extensive data cleaning to prepare the datasets for analysi
 3. Cleaning the Trends Data: The Google search trends data was cleaned by converting the date format and removing duplicate rows.
 
 # Data Visualization
-Various data visualizations were created to gain insights into the datasets and better understand the relationships between different variables. The visualizations include line plots, box plots, pair plots, and heatmaps.
+Various data visualizations were created to gain insights into the datasets and better understand the relationships between different variables. The visualizations include line plots, box plots, pair plots, wordcloud and heatmaps.
 
 # Feature Engineering
 A new DataFrame was created extracted from the tweets data, focusing on the five most repeated keywords and their counts. Another variable was added to store the total count of all keywords for each date.
