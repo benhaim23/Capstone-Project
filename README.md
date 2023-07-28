@@ -18,7 +18,9 @@ Presentation_Bitcoin_Preidiction_Analysis.pdf    <- Final presentation of the pr
 
 # Notebooks:
 Mark_Benhaim_Bitcoin_Prediction_Analysis_1_data_cleaning_preprocessing_EDA.ipynb   <- Project notebook 1 - Data cleaning, preprocessing & EDA
+
 Mark_Benhaim_Bitcoin_Prediction_Analysis_2_modelling.ipynb                   <- Project notebook 2 - modelling
+
 Mark_Benhaim_Bitcoin_Prediction_Analysis_3_discussion.ipynb         <- Project notebook 3 - discussion
 
 data (google drive link: (https://drive.google.com/drive/folders/1hJ4hLRzfGPtS2eAvBBD5uvXYwvAIQlDU?usp=sharing))
