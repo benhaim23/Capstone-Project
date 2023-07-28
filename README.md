@@ -53,7 +53,7 @@ The current progress of the project includes data cleaning, visualization, and f
 
 2. Sentiment Analysis: Conduct sentiment analysis on the tweets data to classify tweets as positive, negative, or neutral sentiment. This can provide valuable insights into the overall sentiment related to Bitcoin on Twitter.
 
-3.Bitcoin Price Forecasting: Use the cleaned and combined dataset to build predictive models for forecasting Bitcoin prices. Explore various time-series forecasting techniques such as ARIMA, LSTM, or Prophet.
+3. Bitcoin Price Forecasting: Use the cleaned and combined dataset to build predictive models for forecasting Bitcoin prices. Explore various time-series forecasting techniques such as ARIMA, LSTM, or Prophet.
 
 4. Sentiment Predictor: Develop a machine learning model to predict the sentiment of tweets about Bitcoin. This can be done using natural language processing (NLP) techniques and sentiment analysis libraries.
 
