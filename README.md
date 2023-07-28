@@ -17,7 +17,7 @@ Mark_Benhaim_Sprint1_presentation.pdf            <- Interim presentation of the 
 Presentation_Bitcoin_Preidiction_Analysis.pdf    <- Final presentation of the project
 
 # Notebooks:
-Mark_Benhaim_Bitcoin_Prediction_Analysis_1_data_acquisition_cleaning.ipynb   <- Project notebook 1 - Data cleaning, preprocessing & EDA
+Mark_Benhaim_Bitcoin_Prediction_Analysis_1_data_cleaning_preprocessing_EDA.ipynb   <- Project notebook 1 - Data cleaning, preprocessing & EDA
 Mark_Benhaim_Bitcoin_Prediction_Analysis_2_modelling.ipynb                   <- Project notebook 2 - modelling
 Mark_Benhaim_Bitcoin_Prediction_Analysis_3_discussion.ipynb         <- Project notebook 3 - discussion
 
