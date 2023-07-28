@@ -14,7 +14,7 @@ Mark_Benhaim_Bitcoin_Prediction_Analysis_1_data_acquisition_cleaning.ipynb   <- 
 Mark_Benhaim_Bitcoin_Prediction_Analysis_2_modelling.ipynb                   <- Project notebook 2 - modelling
 Mark_Benhaim_Bitcoin_Prediction_Analysis_3_discussion.ipynb         <- Project notebook 3 - discussion
 
-data (google drive link: __________________)
+data (google drive link: (https://drive.google.com/drive/folders/1hJ4hLRzfGPtS2eAvBBD5uvXYwvAIQlDU?usp=sharing))
 CSVs              
 
 # Data
