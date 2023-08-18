@@ -50,24 +50,40 @@ Various data visualizations were created to gain insights into the datasets and 
 A new DataFrame was created extracted from the tweets data, focusing on the five most repeated keywords and their counts: bitcoin, btc, crypto, cryptocurrency and project. Another variable was added to store the total count of all keywords for each date by day.
 
 # Combining Datasets
-The datasets were combined based on the date to create a new DataFrame that includes Bitcoin price data, Google search trends, and tweet counts for each date.
+The datasets were combined based on the date to create a new DataFrame that includes Bitcoin price data, Google search trends, and tweet counts for each date. Since there were many null values in the tweets dataset, we used a 3 day moving average fo fill the null values when combining the datasets to include more pricing data in our analysis.
+
+# Sentiment Analysis: 
+A sentiment analysis was conducted on the tweets data to classify tweets as positive, negative, or neutral sentiment providing valuable insights into the overall sentiment related to Bitcoin on Twitter. A visualization was made to display the disparity of each classification.
+
+# Feature Importance: 
+We analyzed the importance of different features in our dataset in predicting Bitcoin prices and sentiment providing insights into which variables have the most significant impact on the outcomes.
+
+# Baseline Modelling
+We began our modeling phase with a random forests regressor to capture more complex relationships in the data through the R^2 squared value and assess feature importance. We made several visualizations such as displaying the feature importance for the relevant features, a scatter plot to compare actual vs. predicted Bitcoin prices with a line of best fit to further assess the relationship between our models prediction vs actual Bitcoin price, and a temporal chart to visualize the accuracy of our prediction model relative to the actual price of Bitcoin.
 
 # Next Steps
 The current progress of the project includes data cleaning, visualization, and feature engineering. The next steps for the project can be as follows:
 
-1. Time-Series Analysis: Perform time-series analysis on the Bitcoin price data to identify trends, seasonality, and patterns. This can help in building more accurate forecasting models.
+1. Modeling with Other Algorithms:
+Explore alternative machine learning models, like nearual networks and support vector machines, to compare their performances with the Random Forest model.
 
-2. Sentiment Analysis: Conduct sentiment analysis on the tweets data to classify tweets as positive, negative, or neutral sentiment. This can provide valuable insights into the overall sentiment related to Bitcoin on Twitter.
+2. Time-Series Analysis: Perform time-series analysis on the Bitcoin price data to identify trends, seasonality, and patterns. This can help in building more accurate forecasting models.
 
-3. Bitcoin Price Forecasting: Use the cleaned and combined dataset to build predictive models for forecasting Bitcoin prices. Explore various time-series forecasting techniques such as ARIMA, LSTM, or Prophet.
+3. Bitcoin Price Forecasting: Use the cleaned and combined dataset to build more advanced predictive models for forecasting Bitcoin prices. Explore various time-series forecasting techniques such as ARIMA, LSTM, or Prophet.
 
-4. Sentiment Predictor: Develop a machine learning model to predict the sentiment of tweets about Bitcoin. This can be done using natural language processing (NLP) techniques and sentiment analysis libraries.
+4. Model Evaluation:
+Evaluate the performance of the forecasting and sentiment prediction models using appropriate metrics. Once the models are deemed accurate and reliable, they can be deployed for real-time predictions. Beyond just R-squared, consider other metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE). A combination of metrics can provide a more holistic view of the model's performance. 
 
-5. Feature Importance: Analyze the importance of different features in predicting Bitcoin prices and sentiment. This can provide insights into which variables have the most significant impact on the outcomes.
+5. Fine-Tune Model Parameters:
+Utilize techniques like grid search, confusion matrix or random search to optimize hyperparameters for the model. This can significantly improve performance and predictive accuracy.
 
-6. Model Evaluation and Deployment: Evaluate the performance of the forecasting and sentiment prediction models using appropriate metrics. Once the models are deemed accurate and reliable, they can be deployed for real-time predictions.
+6. Cross-Validation:
+Implement K-fold cross-validation to ensure that the model is not overfitting and can generalize well to unseen data.
 
-7. Interactive Dashboard: Create an interactive dashboard using tools like Plotly or Dash to visualize the forecasted Bitcoin prices, sentiment trends, and other relevant insights.
+7. Comprehensive Workflow:
+Once various other models, evaluation metrics, and cross-validation strategies have been explored, combine these elements into a cohesive pipeline. This pipeline can be used for future predictions, making the entire process more streamlined and efficient.
+
+8. Interactive Dashboard: Create an interactive dashboard using tools like Plotly or Dash to visualize the forecasted Bitcoin prices, sentiment trends, and other relevant insights.
 
 # Expected Outcomes and Impact: 
 
