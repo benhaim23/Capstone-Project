@@ -19,9 +19,9 @@ Presentation_Bitcoin_Preidiction_Analysis.pdf    <- Final presentation of the pr
 # Notebooks:
 Mark_Benhaim_Bitcoin_Prediction_Analysis_1_data_cleaning_preprocessing_EDA.ipynb   <- Project notebook 1 - Data cleaning, preprocessing & EDA
 
-Mark_Benhaim_Bitcoin_Prediction_Analysis_2_baseline_modelling.ipynb                   <- Project notebook 2 - modelling
+Mark_Benhaim_Bitcoin_Prediction_Analysis_2_baseline_modelling.ipynb                   <- Project notebook 2 - baseline modelling
 
-Mark_Benhaim_Bitcoin_Prediction_Analysis_3_discussion.ipynb         <- Project notebook 3 - discussion
+Mark_Benhaim_Bitcoin_Prediction_Analysis_3_discussion.ipynb         <- Project notebook 3 - Comprehensive Model Evaluation and Insights
 
 data (google drive link: (https://drive.google.com/drive/folders/1hJ4hLRzfGPtS2eAvBBD5uvXYwvAIQlDU?usp=sharing))
 CSVs              
@@ -56,38 +56,49 @@ The datasets were combined based on the date to create a new DataFrame that incl
 A sentiment analysis was conducted on the tweets data to classify tweets as positive, negative, or neutral sentiment providing valuable insights into the overall sentiment related to Bitcoin on Twitter. A visualization was made to display the disparity of each classification.
 
 # Feature Importance: 
-We analyzed the importance of different features in our dataset in predicting Bitcoin prices and sentiment providing insights into which variables have the most significant impact on the outcomes.
+We analyzed the importance of different features in our dataset in predicting Bitcoin prices and sentiment providing insights into which variables have the most significant impact on the outcomes. These variables are:
+- Sentiment_Polarity_tweetcount
+- bitcoin_tweetcount
+- btc_tweetcount
+- crypto_tweetcount
+- cryptocurrency_tweetcount
+- project_tweetcount
+- total count
+- Percent change in dominance (close/open)
+- BTC Dominance Close
+- Volume
+- RSI (relative strength index)
+- HV (historical volatility)
 
 # Baseline Modelling
 We began our modeling phase with a random forests regressor to capture more complex relationships in the data through the R^2 squared value and assess feature importance. We made several visualizations such as displaying the feature importance for the relevant features, a scatter plot to compare actual vs. predicted Bitcoin prices with a line of best fit to further assess the relationship between our models prediction vs actual Bitcoin price, and a temporal chart to visualize the accuracy of our prediction model relative to the actual price of Bitcoin.
 
-# Next Steps
-The current progress of the project includes data cleaning, visualization, and feature engineering. The next steps for the project can be as follows:
+# Comprehensive Model Evaluation and Insights
+In this section, we delve deeper into the performance metrics of each model, providing a bird's-eye view of their predictive capabilities.
 
-1. Modeling with Other Algorithms:
-Explore alternative machine learning models, like nearual networks and support vector machines, to compare their performances with the Random Forest model.
+# Decision Tree Implementation
+In this section, a Decision Tree model is implemented and assessed using scikit-learn. Decision Trees are versatile machine learning algorithms used for both classification and regression tasks. This section details the implementation of the Decision Tree Regressor and its evaluation.
 
-2. Time-Series Analysis: Perform time-series analysis on the Bitcoin price data to identify trends, seasonality, and patterns. This can help in building more accurate forecasting models.
+# Neural Network Issues Explored
+In this section, a Neural Network model is implemented using scikit-learn. Neural Networks are powerful models for capturing complex data relationships. The code outlines the development of an MLPRegressor model and its evaluation. We scrutinize the Neural Network model's limitations, hypothesizing its underperformance may be due to its inherent complexity, suboptimal hyperparameter settings, and potential data size constraints. This section delves into potential reasons and suggests paths for optimization.
 
-3. Bitcoin Price Forecasting: Use the cleaned and combined dataset to build more advanced predictive models for forecasting Bitcoin prices. Explore various time-series forecasting techniques such as ARIMA, LSTM, or Prophet.
+# XGBoost Implementation
+This section focuses on implementing and evaluating the XGBoost algorithm, a gradient boosting framework known for its efficiency and effectiveness. The code demonstrates the use of GradientBoostingRegressor with XGBoost and assesses its performance.
 
-4. Model Evaluation:
-Evaluate the performance of the forecasting and sentiment prediction models using appropriate metrics. Once the models are deemed accurate and reliable, they can be deployed for real-time predictions. Beyond just R-squared, consider other metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE). A combination of metrics can provide a more holistic view of the model's performance. 
+# Models Comparison and Assessment
+This section conducts a comparative analysis of various regression models, including Decision Tree, Random Forest, XGBoost, and Neural Network. Key evaluation metrics such as R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE) are calculated and compared to understand each model's predictive capabilities.
 
-5. Fine-Tune Model Parameters:
-Utilize techniques like grid search, confusion matrix or random search to optimize hyperparameters for the model. This can significantly improve performance and predictive accuracy.
+# Learning Curves Interpretation
+Each model's learning curve is evaluated, focusing on understanding the bias-variance trade-off and suggesting potential remedies. Learning curve plots are generated for each model, illustrating how model performance changes with varying training dataset sizes. These plots help assess whether a model suffers from high bias or high variance and provide insights into its generalization performance.
 
-6. Cross-Validation:
-Implement K-fold cross-validation to ensure that the model is not overfitting and can generalize well to unseen data.
+# K-Fold Cross-Validation Analysis
+Beyond traditional evaluation, K-Fold Cross-Validation is conducted to ensure robust performance assessments. This iterative evaluation approach offers a more comprehensive view of the models' generalization capabilities. In this section, K-fold cross-validation is used to assess model performance across different subsets of the dataset. Four models (Random Forest, Decision Tree, XGBoost, and Neural Network) are evaluated, and their average R-squared scores are reported to gauge their generalization abilities.
 
-7. Comprehensive Workflow:
-Once various other models, evaluation metrics, and cross-validation strategies have been explored, combine these elements into a cohesive pipeline. This pipeline can be used for future predictions, making the entire process more streamlined and efficient.
-
-8. Interactive Dashboard: Create an interactive dashboard using tools like Plotly or Dash to visualize the forecasted Bitcoin prices, sentiment trends, and other relevant insights.
+# Final Takeaways and Recommendations
+The concluding section synthesizes the findings, underscoring XGBoost's prowess in predicting Bitcoin prices with the highest R-Squared value. Random Forest also performs well, with a reasonably high R-squared score. However, the Neural Network model appears to underperform compared to other models, possibly due to its complexity, hyperparameter tuning, and data size considerations. Additionally, the significant correlations between features, especially Twitter sentiment data, and Bitcoin prices are highlighted. Recommendations are provided, suggesting traders and investors integrate such sentiment metrics to make more informed investment decisions.
 
 # Expected Outcomes and Impact: 
-
-This study has the potential to reveal insights about the influence of public sentiment on Bitcoin prices. The predictive models built from this research could be beneficial to investors, providing a more holistic view of market conditions by incorporating public sentiment. This project also contributes to the broader field of study regarding the influence of social media on financial markets.
+This study has the potential to reveal insights about the influence of public sentiment on Bitcoin prices. The predictive models built from this research are beneficial to investors, providing a more holistic view of market conditions by incorporating public sentiment. This project also contributes to the broader field of study regarding the influence of social media on financial markets.
 
 # License
 This project is licensed under the [MIT License](LICENSE).
