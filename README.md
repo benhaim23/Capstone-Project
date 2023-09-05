@@ -10,8 +10,6 @@ This project aims to forecast the price of Bitcoin and analyze sentiment related
 # Project Organization
 README.md          <- The top-level README for developers using this project.
 
-SummaryReport_Bitcoin_Prediction_Analysis.pdf    <- Executive summary
-
 Mark_Benhaim_Sprint1_presentation.pdf            <- Interim presentation of the project
 
 Mark_Benhaim_Sprint2_presentation.pdf            <- Interim presentation of the project
