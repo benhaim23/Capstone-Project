@@ -14,14 +14,16 @@ SummaryReport_Bitcoin_Prediction_Analysis.pdf    <- Executive summary
 
 Mark_Benhaim_Sprint1_presentation.pdf            <- Interim presentation of the project
 
-Presentation_Bitcoin_Preidiction_Analysis.pdf    <- Final presentation of the project
+Mark_Benhaim_Sprint2_presentation.pdf            <- Interim presentation of the project
+
+Presentation_Bitcoin_Prediction_Analysis.pdf    <- Final presentation of the project
 
 # Notebooks:
 Mark_Benhaim_Bitcoin_Prediction_Analysis_1_data_cleaning_preprocessing_EDA.ipynb   <- Project notebook 1 - Data cleaning, preprocessing & EDA
 
 Mark_Benhaim_Bitcoin_Prediction_Analysis_2_baseline_modelling.ipynb                   <- Project notebook 2 - baseline modelling
 
-Mark_Benhaim_Bitcoin_Prediction_Analysis_3_discussion.ipynb         <- Project notebook 3 - Comprehensive Model Evaluation and Insights
+Mark_Benhaim_Bitcoin_Prediction_Analysis_3_Comprehensive_Model_Evaluation_and_Insights.ipynb  <- Project notebook 3 - Comprehensive Model Evaluation and Insights
 
 data (google drive link: (https://drive.google.com/drive/folders/1hJ4hLRzfGPtS2eAvBBD5uvXYwvAIQlDU?usp=sharing))
 CSVs              
@@ -80,7 +82,7 @@ In this section, we delve deeper into the performance metrics of each model, pro
 In this section, a Decision Tree model is implemented and assessed using scikit-learn. Decision Trees are versatile machine learning algorithms used for both classification and regression tasks. This section details the implementation of the Decision Tree Regressor and its evaluation.
 
 # Neural Network Issues Explored
-In this section, a Neural Network model is implemented using scikit-learn. Neural Networks are powerful models for capturing complex data relationships. The code outlines the development of an MLPRegressor model and its evaluation. We scrutinize the Neural Network model's limitations, hypothesizing its underperformance may be due to its inherent complexity, suboptimal hyperparameter settings, and potential data size constraints. This section delves into potential reasons and suggests paths for optimization.
+In this section, a Neural Network model is implemented using scikit-learn. Neural Networks are powerful models for capturing complex data relationships. The code outlines the development of an MLPRegressor model and its evaluation. We scrutinize the Neural Network model's limitations, hypothesizing its underperformance may be due to its inherent complexity, suboptimal hyperparameter settings, and most notably data size constraints due to limitations with our dataset.
 
 # XGBoost Implementation
 This section focuses on implementing and evaluating the XGBoost algorithm, a gradient boosting framework known for its efficiency and effectiveness. The code demonstrates the use of GradientBoostingRegressor with XGBoost and assesses its performance.
@@ -94,8 +96,8 @@ Beyond traditional evaluation, K-Fold Cross-Validation is conducted to ensure ro
 # Final Takeaways and Recommendations
 The concluding section synthesizes the findings, underscoring XGBoost's prowess in predicting Bitcoin prices with the highest R-Squared value. Random Forest also performs well, with a reasonably high R-squared score. However, the Neural Network model appears to underperform compared to other models, possibly due to its complexity, hyperparameter tuning, and data size considerations. Additionally, the significant correlations between features, especially Twitter sentiment data, and Bitcoin prices are highlighted. Recommendations are provided, suggesting traders and investors integrate such sentiment metrics to make more informed investment decisions.
 
-# Expected Outcomes and Impact: 
-This study has the potential to reveal insights about the influence of public sentiment on Bitcoin prices. The predictive models built from this research are beneficial to investors, providing a more holistic view of market conditions by incorporating public sentiment. This project also contributes to the broader field of study regarding the influence of social media on financial markets.
+# Overall Impact: 
+This study has revealed insights about the influence of public sentiment on Bitcoin prices. The predictive models built from this research are beneficial to investors, providing a more holistic view of market conditions by incorporating public sentiment. This project also contributes to the broader field of study regarding the influence of social media on financial markets.
 
 # License
 This project is licensed under the [MIT License](LICENSE).
