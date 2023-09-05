@@ -88,9 +88,6 @@ This section focuses on implementing and evaluating the XGBoost algorithm, a gra
 # Models Comparison and Assessment
 This section conducts a comparative analysis of various regression models, including Decision Tree, Random Forest, XGBoost, and Neural Network. Key evaluation metrics such as R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE) are calculated and compared to understand each model's predictive capabilities.
 
-# Learning Curves Interpretation
-Each model's learning curve is evaluated, focusing on understanding the bias-variance trade-off and suggesting potential remedies. Learning curve plots are generated for each model, illustrating how model performance changes with varying training dataset sizes. These plots help assess whether a model suffers from high bias or high variance and provide insights into its generalization performance.
-
 # K-Fold Cross-Validation Analysis
 Beyond traditional evaluation, K-Fold Cross-Validation is conducted to ensure robust performance assessments. This iterative evaluation approach offers a more comprehensive view of the models' generalization capabilities. In this section, K-fold cross-validation is used to assess model performance across different subsets of the dataset. Four models (Random Forest, Decision Tree, XGBoost, and Neural Network) are evaluated, and their average R-squared scores are reported to gauge their generalization abilities.
 
