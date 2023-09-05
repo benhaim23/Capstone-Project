@@ -16,7 +16,7 @@ Mark_Benhaim_Sprint2_presentation.pdf            <- Interim presentation of the 
 
 Presentation_Bitcoin_Prediction_Analysis.pdf    <- Final presentation of the project
 
-# Notebooks:
+# Notebooks
 Mark_Benhaim_Bitcoin_Prediction_Analysis_1_data_cleaning_preprocessing_EDA.ipynb   <- Project notebook 1 - Data cleaning, preprocessing & EDA
 
 Mark_Benhaim_Bitcoin_Prediction_Analysis_2_baseline_modelling.ipynb                   <- Project notebook 2 - baseline modelling
@@ -52,10 +52,10 @@ A new DataFrame was created extracted from the tweets data, focusing on the five
 # Combining Datasets
 The datasets were combined based on the date to create a new DataFrame that includes Bitcoin price data, Google search trends, and tweet counts for each date. Since there were many null values in the tweets dataset, we used a 3 day moving average fo fill the null values when combining the datasets to include more pricing data in our analysis.
 
-# Sentiment Analysis: 
+# Sentiment Analysis 
 A sentiment analysis was conducted on the tweets data to classify tweets as positive, negative, or neutral sentiment providing valuable insights into the overall sentiment related to Bitcoin on Twitter. A visualization was made to display the disparity of each classification.
 
-# Feature Importance: 
+# Feature Importance 
 We analyzed the importance of different features in our dataset in predicting Bitcoin prices and sentiment providing insights into which variables have the most significant impact on the outcomes. These variables are:
 - Sentiment_Polarity_tweetcount
 - bitcoin_tweetcount
@@ -94,7 +94,7 @@ Beyond traditional evaluation, K-Fold Cross-Validation is conducted to ensure ro
 # Final Takeaways and Recommendations
 The concluding section synthesizes the findings, underscoring XGBoost's prowess in predicting Bitcoin prices with the highest R-Squared value. Random Forest also performs well, with a reasonably high R-squared score. However, the Neural Network model appears to underperform compared to other models, possibly due to its complexity, hyperparameter tuning, and data size considerations. Additionally, the significant correlations between features, especially Twitter sentiment data, and Bitcoin prices are highlighted. Recommendations are provided, suggesting traders and investors integrate such sentiment metrics to make more informed investment decisions.
 
-# Overall Impact: 
+# Overall Impact 
 This study has revealed insights about the influence of public sentiment on Bitcoin prices. The predictive models built from this research are beneficial to investors, providing a more holistic view of market conditions by incorporating public sentiment. This project also contributes to the broader field of study regarding the influence of social media on financial markets.
 
 # License
