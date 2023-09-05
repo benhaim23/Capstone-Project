@@ -4,7 +4,7 @@
 This project aims to forecast the price of Bitcoin and analyze sentiment related to Bitcoin on Twitter using machine learning techniques. The project utilizes historical Bitcoin price data, Google search trends for Bitcoin, and a large collection of tweets about Bitcoin to build predictive models.
 
 # Data Dictionary
-<img width="476" alt="Screenshot 2023-08-17 at 11 43 22 PM" src="https://github.com/benhaim23/Capstone-Project/assets/128685658/26f618af-e007-4247-8ead-2a892d3d385a">
+<img width="419" alt="Screenshot 2023-09-04 at 11 57 21 PM" src="https://github.com/benhaim23/Capstone-Project/assets/128685658/4b569498-f5dc-4b80-b66d-b5a765e659d0">
 
 
 # Project Organization
